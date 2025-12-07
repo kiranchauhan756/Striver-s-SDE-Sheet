@@ -4,9 +4,9 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Add_Element_in_Linked_List {
-     Node head;
-     Node current;
-    public void createNewElementInLinkedList() throws InputMismatchException {
+    public static Node head;
+    public static Node current;
+    public static void createNewElementInLinkedList() throws InputMismatchException {
         // Enter ele in Linked List
         Scanner sc = new Scanner(System.in);
 
@@ -30,12 +30,13 @@ public class Add_Element_in_Linked_List {
             }
     }
     }
-    public void printElementInLinkedList(Add_Element_in_Linked_List list){
-     Node temp=list.head;
+    public static void printElementInLinkedList(){
+     Node temp=head;
      while(temp!=null){
-         System.out.println(temp.data);
+         System.out.print(temp.data+" ");
          temp=temp.next;
      }
+        System.out.println();
     }
 
 }

@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.linked_list.Add_Element_in_Linked_List;
+import org.example.linked_list.Find_Middle_Of_Linked_List;
 import org.example.linked_list.ReverseLinkedList;
 
 public class Main {
@@ -14,10 +15,15 @@ public class Main {
     //list.printElementInLinkedList(list);
 
     // Reverse Element in linked List
-        ReverseLinkedList rev=new ReverseLinkedList();
-        rev.createLinkedList();
-        rev.printLinkedList();
-        rev.printReverseList();
-        rev.printLinkedList();
+//        ReverseLinkedList rev=new ReverseLinkedList();
+//        rev.createLinkedList();
+//        rev.printLinkedList();
+//        rev.printReverseList();
+//        rev.printLinkedList();
+
+        // FindMiddle of LinkedList
+        Find_Middle_Of_Linked_List.findMiddleOfLinkedList();
+
+
     }
 }
